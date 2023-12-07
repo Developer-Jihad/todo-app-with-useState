@@ -1,0 +1,51 @@
+.single-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.single-item .flex {
+  display: flex;
+  align-items: center;
+  line-break: anywhere;
+  width: 340px;
+}
+.todo-text {
+  margin: 0px 10px;
+}
+.icon {
+  color: lightslategray;
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon:hover{
+  color: salmon;
+}
+.dlt-icon {
+  margin-left: 10px;
+}
+
+.icon-checked {
+  color: salmon;
+}
+.save-edit-btn {
+  padding: 5px ;
+  border: none;
+  background-color: transparent;
+}
+.completed-todo {
+  color: gray;
+}
+
+.editing-form form {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.editing-form input {
+  width: 250px;
+  border-radius: 20px;
+  padding-left: 15px;
+  border: none;
+  background-color: white;
+}

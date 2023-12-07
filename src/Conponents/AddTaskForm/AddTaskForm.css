@@ -1,0 +1,52 @@
+.todo-app {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: antiquewhite;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+form {
+  position: relative;
+  width: 400px;
+  
+}
+.form-input {
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+  padding-left: 25px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 15px 1px rgba(224, 224, 237, 1);
+  -moz-box-shadow: 5px 5px 15px 1px rgba(224, 224, 237, 1);
+  box-shadow: 1px 1px 5px 1px rgba(224, 224, 237, 1);
+}
+input:focus {
+  outline: 1px solid salmon;
+}
+.submit-btn {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  background-color: salmon;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+.task-container {
+  padding:5px 18px;
+  max-width: 500px;
+}
