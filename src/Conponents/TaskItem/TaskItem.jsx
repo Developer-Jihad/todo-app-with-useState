@@ -49,14 +49,14 @@ export default function TaskItem({ todo: { todo, setTodos }, deleteTodo }) {
               <div>
                 <PiCheckCircleFill
                   onClick={handleComplete}
-                  className="icon-checked icon"
+                  className="checked-icon icon"
                 />
               </div>
             ) : (
               <div>
                 <PiCheckCircleBold
                   onClick={handleComplete}
-                  className="check-icon icon"
+                  className="unChecked-icon icon"
                 />
               </div>
             )}
